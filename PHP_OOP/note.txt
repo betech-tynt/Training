@@ -1,0 +1,17 @@
+
+
+Trong một lớp:
+        - Các biến được gọi là thuộc tính
+        - Các hàm được gọi là phương thức
+        - Các đối tượng của một lớp được tạo bằng từ khoá NEW
+        - Từ khoá $this đề cập đến đồi tượng hiện tại và chỉ khả dụng trong các phương thức
+        - Sử dụng __construct() thì không phải gọi phương thức setName().
+
+        - extends dùng để kế thừa
+        - final dùng để chống kế thừa và ghi đè
+        - Truy cập một hằng số từ bên NGOÀI lớp bằng cách sử dụng tên lớp theo sau là toán tử phân giải phạm vi ( :: ) theo sau là tên hằng
+        - Truy cập một hằng số từ bên TRONG lớp bằng cách sử dụng từ khóa 'self' theo sau là toán tử phân giải phạm vi (::), theo sau là tên hằng số
+        - Để truy cập một phương thức tĩnh, hãy sử dụng tên lớp, dấu hai chấm (::) và tên phương thức:
+                + Example: ClassName::staticMethod();
+        - Để truy cập một thuộc tính tĩnh, hãy sử dụng tên lớp, dấu hai chấm kép (::) và tên thuộc tính:
+                + Example: ClassName::$staticProp;
